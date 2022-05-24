@@ -6,13 +6,13 @@
 /*   By: sgerace <sgerace@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 16:54:00 by sgerace           #+#    #+#             */
-/*   Updated: 2022/05/23 18:08:40 by sgerace          ###   ########.fr       */
+/*   Updated: 2022/05/24 15:36:43 by sgerace          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putchar(char c)
+int	ft_putchar(const char c)
 {
 	write(1, &c, 1);
 	return (1);
