@@ -6,7 +6,7 @@
 /*   By: sgerace <sgerace@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 20:13:42 by sgerace           #+#    #+#             */
-/*   Updated: 2022/05/24 16:49:15 by sgerace          ###   ########.fr       */
+/*   Updated: 2022/05/24 17:07:04 by sgerace          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,45 +60,45 @@ int	ft_printf(const	char *string, ...)
 	return (len);
 }
 
-int main(void)
-{
-	char anything = '%';
-	char *anything2 = "lunga6";
-	int anything3 = 12;
-	unsigned	int anything4 = 42;
-	unsigned	int anything5 = 69;
-	void *anything6 = &anything2;
-	int	i = 0;
-	int j = 0;
+// int main(void)
+// {
+// 	char anything = '%';
+// 	char *anything2 = "lunga6";
+// 	int anything3 = 12;
+// 	unsigned	int anything4 = 412324;
+// 	unsigned	int anything5 = 1337;
+// 	void *anything6 = &anything2;
+// 	int	i = 0;
+// 	int j = 0;
 
-	i = printf("PRINTF: %c\n", anything);
-	j = ft_printf("FT_PRINTF: %c\n", anything);
-	printf("Numero di char letti con PRINTF: %i\n", i);
-	printf("Numero di char letti con FT_PRINTF: %i\n", j);
+// 	i = printf("PRINTF: %c\n", anything);
+// 	j = ft_printf("FT_PRINTF: %c\n", anything);
+// 	printf("Numero di char letti con PRINTF: %i\n", i);
+// 	printf("Numero di char letti con FT_PRINTF: %i\n", j);
 
-	i = printf("PRINTF: %s\n", anything2);
-	j = ft_printf("FT_PRINTF: %s\n", anything2);
-	printf("Numero di char letti con PRINTF: %i\n", i);
-	printf("Numero di char letti con FT_PRINTF: %i\n", j);
+// 	i = printf("PRINTF: %s\n", anything2);
+// 	j = ft_printf("FT_PRINTF: %s\n", anything2);
+// 	printf("Numero di char letti con PRINTF: %i\n", i);
+// 	printf("Numero di char letti con FT_PRINTF: %i\n", j);
 
-	i = printf("PRINTF: %d\n", anything3);
-	j = ft_printf("FT_PRINTF: %d\n", anything3);
-	printf("Numero di char letti con PRINTF: %i\n", i);
-	printf("Numero di char letti con FT_PRINTF: %i\n", j);
+// 	i = printf("PRINTF: %d\n", anything3);
+// 	j = ft_printf("FT_PRINTF: %d\n", anything3);
+// 	printf("Numero di char letti con PRINTF: %i\n", i);
+// 	printf("Numero di char letti con FT_PRINTF: %i\n", j);
 
-	i = printf("PRINTF: %x\n", anything4);
-	j = ft_printf("FT_PRINTF: %x\n", anything4);
-	printf("Numero di char letti con PRINTF: %i\n", i);
-	printf("Numero di char letti con FT_PRINTF: %i\n", j);
+// 	i = printf("PRINTF: %x\n", anything4);
+// 	j = ft_printf("FT_PRINTF: %x\n", anything4);
+// 	printf("Numero di char letti con PRINTF: %i\n", i);
+// 	printf("Numero di char letti con FT_PRINTF: %i\n", j);
 
-	i = printf("PRINTF: %X\n", anything5);
-	j = ft_printf("FT_PRINTF: %X\n", anything5);
-	printf("Numero di char letti con PRINTF: %i\n", i);
-	printf("Numero di char letti con FT_PRINTF: %i\n", j);
+// 	i = printf("PRINTF: %X\n", anything5);
+// 	j = ft_printf("FT_PRINTF: %X\n", anything5);
+// 	printf("Numero di char letti con PRINTF: %i\n", i);
+// 	printf("Numero di char letti con FT_PRINTF: %i\n", j);
 
-	i = printf("PRINTF: %p\n", anything6);
-	j = ft_printf("FT_PRINTF: %p\n", anything6);
-	printf("Numero di char letti con PRINTF: %i\n", i);
-	printf("Numero di char letti con FT_PRINTF: %i\n", j);
-	return (0);
-}
+// 	i = printf("PRINTF: %p\n", anything6);
+// 	j = ft_printf("FT_PRINTF: %p\n", anything6);
+// 	printf("Numero di char letti con PRINTF: %i\n", i);
+// 	printf("Numero di char letti con FT_PRINTF: %i\n", j);
+// 	return (0);
+// }

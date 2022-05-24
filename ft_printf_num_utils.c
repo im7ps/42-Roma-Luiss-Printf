@@ -6,7 +6,7 @@
 /*   By: sgerace <sgerace@student.42roma.it>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 16:05:00 by sgerace           #+#    #+#             */
-/*   Updated: 2022/05/23 18:07:33 by sgerace          ###   ########.fr       */
+/*   Updated: 2022/05/24 17:04:13 by sgerace          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_print_address(unsigned long address, char *hex_vocabulary)
 
 	i = 0;
 	if (address >= 16)
-		i += ft_print_ptr((address / 16), hex_vocabulary);
+		i += ft_print_address((address / 16), hex_vocabulary);
 	i += ft_putchar(hex_vocabulary[(address % 16)]);
 	return (i);
 }
@@ -85,7 +85,7 @@ int	ft_print_num_hex(unsigned int hex_number, char *hex_vocabulary)
 
 	i = 0;
 	if (hex_number >= 16)
-		i += ft_print_ptr((hex_number / 16), hex_vocabulary);
+		i += ft_print_num_hex((hex_number / 16), hex_vocabulary);
 	i += ft_putchar(hex_vocabulary[(hex_number % 16)]);
 	return (i);
 }
